@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "stacks": [
+    {
+      "canonical_id": "mern",
+      "canonical_name": "MERN Stack",
+      "components": [
+        "mongodb",
+        "expressjs",
+        "react",
+        "node"
+      ],
+      "inference_policy": "MATCH only when every component is independently supported by candidate evidence."
+    },
+    {
+      "canonical_id": "mean",
+      "canonical_name": "MEAN Stack",
+      "components": [
+        "mongodb",
+        "expressjs",
+        "angular",
+        "node"
+      ],
+      "inference_policy": "MATCH only when every component is independently supported by candidate evidence."
+    }
+  ]
+}

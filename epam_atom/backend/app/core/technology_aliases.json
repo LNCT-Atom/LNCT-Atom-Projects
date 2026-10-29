@@ -1,0 +1,987 @@
+{
+  "schema_version": "1.0",
+  "description": "Starter deterministic technology alias dictionary. Extend only with reviewed aliases; do not infer equivalence from fuzzy similarity alone.",
+  "technologies": [
+    {
+      "canonical_id": "sql",
+      "canonical_name": "SQL",
+      "category": "database_query",
+      "aliases": [
+        "sql",
+        "structured query language"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "java",
+      "canonical_name": "Java",
+      "category": "programming_language",
+      "aliases": [
+        "java",
+        "core java",
+        "java 8",
+        "java 11",
+        "java 17",
+        "java 21"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "javascript",
+      "canonical_name": "JavaScript",
+      "category": "programming_language",
+      "aliases": [
+        "javascript",
+        "js",
+        "ecmascript",
+        "es6"
+      ],
+      "ambiguous_aliases": [
+        "js"
+      ]
+    },
+    {
+      "canonical_id": "python",
+      "canonical_name": "Python",
+      "category": "programming_language",
+      "aliases": [
+        "python",
+        "py",
+        "python3",
+        "python 3"
+      ],
+      "ambiguous_aliases": [
+        "py"
+      ]
+    },
+    {
+      "canonical_id": "typescript",
+      "canonical_name": "TypeScript",
+      "category": "programming_language",
+      "aliases": [
+        "typescript",
+        "ts"
+      ],
+      "ambiguous_aliases": [
+        "ts"
+      ]
+    },
+    {
+      "canonical_id": "c",
+      "canonical_name": "C",
+      "category": "programming_language",
+      "aliases": [
+        "c",
+        "c language",
+        "c lang"
+      ],
+      "ambiguous_aliases": [
+        "c"
+      ]
+    },
+    {
+      "canonical_id": "cpp",
+      "canonical_name": "C++",
+      "category": "programming_language",
+      "aliases": [
+        "c++",
+        "cpp",
+        "c plus plus"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "csharp",
+      "canonical_name": "C#",
+      "category": "programming_language",
+      "aliases": [
+        "c#",
+        "csharp",
+        "c sharp"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "go",
+      "canonical_name": "Go",
+      "category": "programming_language",
+      "aliases": [
+        "go",
+        "golang"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "rust",
+      "canonical_name": "Rust",
+      "category": "programming_language",
+      "aliases": [
+        "rust",
+        "rustlang"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "php",
+      "canonical_name": "PHP",
+      "category": "programming_language",
+      "aliases": [
+        "php"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "ruby",
+      "canonical_name": "Ruby",
+      "category": "programming_language",
+      "aliases": [
+        "ruby"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "kotlin",
+      "canonical_name": "Kotlin",
+      "category": "programming_language",
+      "aliases": [
+        "kotlin"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "swift",
+      "canonical_name": "Swift",
+      "category": "programming_language",
+      "aliases": [
+        "swift"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "scala",
+      "canonical_name": "Scala",
+      "category": "programming_language",
+      "aliases": [
+        "scala"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "r",
+      "canonical_name": "R",
+      "category": "programming_language",
+      "aliases": [
+        "r",
+        "r language",
+        "r lang"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "dart",
+      "canonical_name": "Dart",
+      "category": "programming_language",
+      "aliases": [
+        "dart"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "node",
+      "canonical_name": "Node.js",
+      "category": "backend_runtime",
+      "aliases": [
+        "node.js",
+        "nodejs",
+        "node js",
+        "node"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "react",
+      "canonical_name": "React",
+      "category": "frontend_library",
+      "aliases": [
+        "react",
+        "react.js",
+        "reactjs"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "angular",
+      "canonical_name": "Angular",
+      "category": "frontend_framework",
+      "aliases": [
+        "angular",
+        "angular.js",
+        "angularjs",
+        "angular js"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "vue",
+      "canonical_name": "Vue",
+      "category": "frontend_framework",
+      "aliases": [
+        "vue",
+        "vue.js",
+        "vuejs",
+        "vue js"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "nextjs",
+      "canonical_name": "Next.js",
+      "category": "frontend_framework",
+      "aliases": [
+        "next.js",
+        "nextjs",
+        "next js"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "nuxt",
+      "canonical_name": "Nuxt",
+      "category": "frontend_framework",
+      "aliases": [
+        "nuxt",
+        "nuxt.js",
+        "nuxtjs",
+        "nuxt js"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "svelte",
+      "canonical_name": "Svelte",
+      "category": "frontend_framework",
+      "aliases": [
+        "svelte",
+        "svelte.js",
+        "sveltekit"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "tailwindcss",
+      "canonical_name": "Tailwind CSS",
+      "category": "frontend_styling",
+      "aliases": [
+        "tailwind css",
+        "tailwindcss",
+        "tailwind"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "bootstrap",
+      "canonical_name": "Bootstrap",
+      "category": "frontend_styling",
+      "aliases": [
+        "bootstrap",
+        "bootstrap 5",
+        "bootstrap 4"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "expressjs",
+      "canonical_name": "Express.js",
+      "category": "backend_framework",
+      "aliases": [
+        "express.js",
+        "expressjs",
+        "express js",
+        "express"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "mongodb",
+      "canonical_name": "MongoDB",
+      "category": "database",
+      "aliases": [
+        "mongodb",
+        "mongo db"
+      ],
+      "ambiguous_aliases": [
+        "mongo"
+      ]
+    },
+    {
+      "canonical_id": "mysql",
+      "canonical_name": "MySQL",
+      "category": "database",
+      "aliases": [
+        "mysql",
+        "my sql"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "postgresql",
+      "canonical_name": "PostgreSQL",
+      "category": "database",
+      "aliases": [
+        "postgresql",
+        "postgres",
+        "postgre sql",
+        "psql"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "sqlite",
+      "canonical_name": "SQLite",
+      "category": "database",
+      "aliases": [
+        "sqlite",
+        "sqlite3"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "redis",
+      "canonical_name": "Redis",
+      "category": "database_cache",
+      "aliases": [
+        "redis"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "oracle",
+      "canonical_name": "Oracle Database",
+      "category": "database",
+      "aliases": [
+        "oracle",
+        "oracle database",
+        "oracle db"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "mssql",
+      "canonical_name": "Microsoft SQL Server",
+      "category": "database",
+      "aliases": [
+        "ms sql server",
+        "sql server",
+        "mssql",
+        "microsoft sql server"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "cassandra",
+      "canonical_name": "Cassandra",
+      "category": "database",
+      "aliases": [
+        "cassandra",
+        "apache cassandra"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "elasticsearch",
+      "canonical_name": "Elasticsearch",
+      "category": "database_search",
+      "aliases": [
+        "elasticsearch",
+        "elastic search"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "mern",
+      "canonical_name": "MERN Stack",
+      "category": "technology_stack",
+      "aliases": [
+        "mern",
+        "mern stack"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "mean",
+      "canonical_name": "MEAN Stack",
+      "category": "technology_stack",
+      "aliases": [
+        "mean",
+        "mean stack"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "html",
+      "canonical_name": "HTML",
+      "category": "web_standard",
+      "aliases": [
+        "html",
+        "html5",
+        "hypertext markup language"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "css",
+      "canonical_name": "CSS",
+      "category": "web_standard",
+      "aliases": [
+        "css",
+        "css3",
+        "cascading style sheets"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "git",
+      "canonical_name": "Git",
+      "category": "version_control",
+      "aliases": [
+        "git"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "github",
+      "canonical_name": "GitHub",
+      "category": "version_control",
+      "aliases": [
+        "github"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "gitlab",
+      "canonical_name": "GitLab",
+      "category": "version_control",
+      "aliases": [
+        "gitlab"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "bitbucket",
+      "canonical_name": "Bitbucket",
+      "category": "version_control",
+      "aliases": [
+        "bitbucket"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "postman",
+      "canonical_name": "Postman",
+      "category": "development_tools",
+      "aliases": [
+        "postman"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "docker",
+      "canonical_name": "Docker",
+      "category": "containerization",
+      "aliases": [
+        "docker"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "orchestration",
+      "aliases": [
+        "kubernetes",
+        "k8s"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "terraform",
+      "canonical_name": "Terraform",
+      "category": "devops",
+      "aliases": [
+        "terraform"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "ansible",
+      "canonical_name": "Ansible",
+      "category": "devops",
+      "aliases": [
+        "ansible"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "aws",
+      "canonical_name": "Amazon Web Services",
+      "category": "cloud",
+      "aliases": [
+        "aws",
+        "amazon web services"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "azure",
+      "canonical_name": "Microsoft Azure",
+      "category": "cloud",
+      "aliases": [
+        "azure",
+        "microsoft azure"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "gcp",
+      "canonical_name": "Google Cloud Platform",
+      "category": "cloud",
+      "full_form": "Google Cloud Platform",
+      "aliases": [
+        "gcp",
+        "google cloud",
+        "google cloud platform"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "firebase",
+      "canonical_name": "Firebase",
+      "category": "cloud",
+      "aliases": [
+        "firebase",
+        "google firebase"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "pytorch",
+      "canonical_name": "PyTorch",
+      "category": "ai_ml_framework",
+      "aliases": [
+        "pytorch",
+        "py torch"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "tensorflow",
+      "canonical_name": "TensorFlow",
+      "category": "ai_ml_framework",
+      "aliases": [
+        "tensorflow",
+        "tensor flow",
+        "tf"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "scikit_learn",
+      "canonical_name": "scikit-learn",
+      "category": "ai_ml_library",
+      "aliases": [
+        "scikit-learn",
+        "scikitlearn",
+        "sklearn"
+      ],
+      "ambiguous_aliases": [
+        "sklearn"
+      ]
+    },
+    {
+      "canonical_id": "pandas",
+      "canonical_name": "pandas",
+      "category": "data_library",
+      "aliases": [
+        "pandas"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "numpy",
+      "canonical_name": "NumPy",
+      "category": "data_library",
+      "aliases": [
+        "numpy"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "spark",
+      "canonical_name": "Apache Spark",
+      "category": "data_engineering",
+      "aliases": [
+        "apache spark",
+        "spark",
+        "pyspark"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "kafka",
+      "canonical_name": "Apache Kafka",
+      "category": "data_engineering",
+      "aliases": [
+        "apache kafka",
+        "kafka"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "airflow",
+      "canonical_name": "Apache Airflow",
+      "category": "data_engineering",
+      "aliases": [
+        "apache airflow",
+        "airflow"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "tableau",
+      "canonical_name": "Tableau",
+      "category": "analytics",
+      "aliases": [
+        "tableau"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "power_bi",
+      "canonical_name": "Power BI",
+      "category": "analytics",
+      "aliases": [
+        "power bi",
+        "powerbi",
+        "power-bi",
+        "ms power bi"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "ai",
+      "canonical_name": "Artificial Intelligence",
+      "category": "ai_ml",
+      "aliases": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "ml",
+      "canonical_name": "Machine Learning",
+      "category": "ai_ml",
+      "aliases": [
+        "ml",
+        "machine learning"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "deep_learning",
+      "canonical_name": "Deep Learning",
+      "category": "ai_ml",
+      "aliases": [
+        "deep learning",
+        "dl"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "nlp",
+      "canonical_name": "Natural Language Processing",
+      "category": "ai_ml",
+      "aliases": [
+        "nlp",
+        "natural language processing"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "llm",
+      "canonical_name": "Large Language Models",
+      "category": "ai_ml",
+      "aliases": [
+        "llm",
+        "llms",
+        "large language model",
+        "large language models"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "spring_boot",
+      "canonical_name": "Spring Boot",
+      "category": "backend_framework",
+      "aliases": [
+        "spring boot",
+        "springboot",
+        "spring-boot"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "django",
+      "canonical_name": "Django",
+      "category": "backend_framework",
+      "aliases": [
+        "django",
+        "django rest framework",
+        "drf"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "flask",
+      "canonical_name": "Flask",
+      "category": "backend_framework",
+      "aliases": [
+        "flask"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "fastapi",
+      "canonical_name": "FastAPI",
+      "category": "backend_framework",
+      "aliases": [
+        "fastapi",
+        "fast api"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "aspnetcore",
+      "canonical_name": "ASP.NET Core",
+      "category": "backend_framework",
+      "aliases": [
+        "asp.net core",
+        "aspnetcore",
+        "asp net core",
+        "asp.net",
+        "dotnet",
+        ".net",
+        "dot net"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "laravel",
+      "canonical_name": "Laravel",
+      "category": "backend_framework",
+      "aliases": [
+        "laravel"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "nestjs",
+      "canonical_name": "NestJS",
+      "category": "backend_framework",
+      "aliases": [
+        "nestjs",
+        "nest.js",
+        "nest js"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "rest_api",
+      "canonical_name": "REST API",
+      "category": "api_architecture",
+      "aliases": [
+        "rest api",
+        "restful api",
+        "representational state transfer api"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "graphql",
+      "canonical_name": "GraphQL",
+      "category": "api_query_language",
+      "aliases": [
+        "graphql",
+        "graph ql"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "linux",
+      "canonical_name": "Linux",
+      "category": "operating_system",
+      "aliases": [
+        "linux",
+        "gnu/linux"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "maven",
+      "canonical_name": "Maven",
+      "category": "build_tool",
+      "aliases": [
+        "maven",
+        "apache maven"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "gradle",
+      "canonical_name": "Gradle",
+      "category": "build_tool",
+      "aliases": [
+        "gradle"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "npm",
+      "canonical_name": "npm",
+      "category": "package_manager",
+      "aliases": [
+        "npm"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "pnpm",
+      "canonical_name": "pnpm",
+      "category": "package_manager",
+      "aliases": [
+        "pnpm"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "junit",
+      "canonical_name": "JUnit",
+      "category": "testing",
+      "aliases": [
+        "junit",
+        "j unit",
+        "junit5",
+        "junit4"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "pytest",
+      "canonical_name": "pytest",
+      "category": "testing",
+      "aliases": [
+        "pytest"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "selenium",
+      "canonical_name": "Selenium",
+      "category": "testing",
+      "aliases": [
+        "selenium",
+        "selenium webdriver"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "playwright",
+      "canonical_name": "Playwright",
+      "category": "testing",
+      "aliases": [
+        "playwright"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "cypress",
+      "canonical_name": "Cypress",
+      "category": "testing",
+      "aliases": [
+        "cypress"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "jest",
+      "canonical_name": "Jest",
+      "category": "testing",
+      "aliases": [
+        "jest"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "jenkins",
+      "canonical_name": "Jenkins",
+      "category": "ci_cd",
+      "aliases": [
+        "jenkins"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "github_actions",
+      "canonical_name": "GitHub Actions",
+      "category": "ci_cd",
+      "aliases": [
+        "github actions",
+        "github action",
+        "gh actions"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "gitlab_cicd",
+      "canonical_name": "GitLab CI/CD",
+      "category": "ci_cd",
+      "aliases": [
+        "gitlab ci/cd",
+        "gitlab ci",
+        "gitlab cicd"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "cicd",
+      "canonical_name": "CI/CD",
+      "category": "ci_cd",
+      "aliases": [
+        "ci/cd",
+        "ci-cd",
+        "cicd"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "excel",
+      "canonical_name": "Microsoft Excel",
+      "category": "productivity",
+      "aliases": [
+        "excel",
+        "microsoft excel"
+      ],
+      "ambiguous_aliases": []
+    },
+    {
+      "canonical_id": "salesforce",
+      "canonical_name": "Salesforce",
+      "category": "crm_platform",
+      "aliases": [
+        "salesforce",
+        "salesforce platform"
+      ],
+      "ambiguous_aliases": []
+    }
+  ]
+}
